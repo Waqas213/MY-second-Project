@@ -1,0 +1,336 @@
+h1,h2,h3,p,body{
+ height: 100%;
+    margin:0;
+   /* padding: 0;*/
+}
+@font-face
+{
+ font-family:customfont;
+    src:url("Fonts/Spartan-VariableFont_wght.ttf");
+    font-weight: 700;
+    
+    
+}
+@font-face
+{
+ font-family:customfont1;
+    src:url("Fonts/Spartan-VariableFont_wght.ttf");
+    font-weight: 400;
+    
+    
+}
+body
+{
+    background-image: url("Images/bg-pattern-top-desktop.svg"); 
+    background-image: url(Images/bg-pattern-bottom-desktop.svg);
+}
+.container
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.container_child_div{
+    height: 80%;
+    width: 80%;
+    
+    
+}
+.C_child1
+{
+    width: 100%;
+    height:50%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.c-child1_main_child{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 35%;
+    
+}
+.C_ch1_child
+{
+    width:100%;
+    height:60%;
+  /*  float:left;*/
+    font-family: customfont;
+    font-size: 40px;
+    color:  hsl(300, 43%, 22%);
+    }
+.lines{
+    width:100%;
+    height:40%;
+    font-family: customfont1;
+    font-size: 10px;
+    color:  hsl(300, 43%, 22%);
+}
+.blank_div{
+    width: 15%;
+    height: 100%
+}
+.C_ch1_child1
+{
+    width:50%;
+     height:80%;
+    float: right;
+  /*font-family: 'Spartan', sans-serif;*/
+    font-family: customfont;
+    font-size: 20px;
+    color:  hsl(300, 43%, 22%);
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    justify-content: space-around;
+    
+}
+.star_content{
+    width: 70%;
+    height: 25%;
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    
+}
+.star_content1{
+    width: 70%;
+    height: 25%;
+    background-color: hsl(300, 24%, 96%);
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    
+}
+.star_content2{
+    width: 70%;
+    height: 25%;
+    background-color: hsl(300, 24%, 96%);
+    align-self:flex-end;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    
+}
+.icon_stars{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 40%;
+    height:100%;
+}
+.icon_content
+{  display: flex;
+     width: 60%;
+    height:100%;
+     align-items: center;
+    justify-content:space-evenly;
+    font-size: 12px;
+    
+}
+.C_child2
+{
+    width: 100%;
+    height:50%;
+    display: flex;
+   /* flex-direction: row;*/
+    justify-content: space-between;
+}
+.profile
+{
+ width: 30%;
+    height: 70%;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 15px;
+     display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#profile1{
+    align-self: flex-start;
+}
+#profile2{
+    align-self:center;
+}
+#profile3{
+    align-self:flex-end;
+}
+
+.profile_child{
+    width: 80%;
+    height: 80%;
+}
+.profile_child1
+{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+}
+.profile_child2
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 65%;
+    font-family: customfont1;
+        color:hsl(300, 24%, 96%);
+    font-size: 11px;
+}
+.profile_pic{
+    display: flex;
+     align-items: center;
+    justify-content:space-evenly;
+    width: 30%;
+    height: 100%;
+   
+    
+}
+#image
+{
+    border-radius: 50%;
+    width: 65%;
+    height:100;
+    
+}
+.profile_name{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.profile_name_child
+{   display: flex;
+    width: 70%;
+    height: 50%;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+    font-family: customfont;
+    font-size: 15px;
+    
+}
+.profile_role{
+    
+    width: 70%;
+    height: 50%;
+    color: hsl(333, 80%, 67%);
+        font-family: customfont1;
+         font-size: 10px;
+
+}
+
+
+
+
+@media screen and (max-width: 480px)
+{
+    .container
+    {
+        background-color: aqua;
+    }
+    
+    .container_child_div{
+    height: 90%;
+    width: 80%;
+    
+    
+}
+    .C_child1{
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+    }
+    .c-child1_main_child{
+        width: 100%;
+        height: 40%;
+    }
+    .C_ch1_child{
+        height: 60%;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    .lines{
+        text-align: center;
+        width: 100%;
+        height: 30%;
+    }
+    .C_ch1_child1{
+        
+        width: 100%;
+    }
+ .blank_div{
+    width: 0%;
+    height: 0%
+}
+    .star_content{
+       width: 100%;
+        height: 25%;
+        flex-direction: column;
+        align-items: center;
+           
+    }
+    .star_content1
+    {
+        width: 100%;
+        height: 25%;
+         flex-direction: column;
+        align-items: center;
+    }
+   .star_content2{
+        width: 100%;
+        height: 25%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .icon_content{
+        font-size: 10px;
+    }
+    .profile{
+        width: 100%;
+        height: 30%;
+    }  
+    .C_child2{
+        flex-direction: column;
+        
+    }
+    #image{
+        width: 35%;
+    }
+    .profile_child2{
+        font-size: 8px;
+    }
+    
+    
+    
+    
+}
+@media screen and (max-width: 360px)
+{
+    .container
+    {
+        background-color:cadetblue;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
